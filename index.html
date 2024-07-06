@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .main{
+                display:grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 0px 50px  120px 170px;
+                gap:30px;
+                
+            }
+            img{
+                float:left;
+                height: 150px;
+                width:200px;
+                
+            
+            }
+           .demo{
+            float:left;
+           }
+           .demo1{
+            float:right;
+           }
+           .first{
+            color:orange;
+            font-size: xx-large;
+            font-style: italic;
+           }
+           .second{
+            grid-column: span 2;
+            color:black;
+            font-size: xx-large;
+           }
+           .third{
+            grid-column: span 2;
+            font-size: xx-large;
+            color:black
+           }
+           span{
+            color:rgb(5, 5, 58)
+           }
+        </style>
+    </head>
+    <body>
+        <div class="main">
+            <div class="first"> dev.com</div>
+            <div class="second"><h1>We are a <span>Creative</span> </h1></div>
+            <div class="third"><h1>Design Agency</h1></div>
+            <div class="demo2">
+                <img src="./flower.jpeg">
+                <h2> Beauty</h2>
+                <p> we strive to create the most beautiful websites for all your needs.Working closely with you to design and develope an amazing website for your business.</p>
+            </div>
+            <div class="demo1">
+                <img src="./images.jpeg">
+                <h2>construction</h2>
+                <p> Built by our team of professional developers ,we ensure the most rigourous and modern websites.Built from scratch using html and css.
+                    only the best for you
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
